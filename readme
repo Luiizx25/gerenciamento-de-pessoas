@@ -1,0 +1,23 @@
+Projeto para vaga Stefanini by LuizPH.
+
+projeto não conluido 100% ainda. Foi feito nesse tempo a parte do back em java, funcionando com o postman para adicionar o nome, celular, aniversario e cpf por meio do GET. Via web no localhost:3000 ainda nao foi feito, somente o esqueleto do projeto front, funciona para adicionar o Nome, CPF e Celular clicando em cadastrar nova pessoa.
+
+Para rodar o projeto precisa fazer o download do projeto, iniciar o npm para o front e iniciar o maven para o back com o comando: mvn spring-boot:run
+
+Estrutura para usar o postman:
+
+{
+    "name": "seu nome",
+    "birthDate": "xx-xx-xxxx",
+    "cpf": "xxx.xxx.xxx-xx",
+    "phones": [
+        {
+            "type": "MOBILE",
+            "number": "(xx)xxxxxxxxx"
+        }
+    ]
+}
+
+url do postman: http://localhost:8080/api/v1/people
+
+enviei um video demonstrando o projeto pelo EMAIL. Favor considerar que foi feito em 1 dia todo o projeto do zero.
